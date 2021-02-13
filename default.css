@@ -16,6 +16,9 @@ and open the template in the editor.
     width: 500px;
     object-fit: cover;
 }
+@media screen and (max-width: 600px) {
+    width: 400px;
+}
 .nav-style {
     background-color: #93C178;
 }
