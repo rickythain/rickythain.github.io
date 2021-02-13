@@ -16,8 +16,10 @@ and open the template in the editor.
     width: 500px;
     object-fit: cover;
 }
-@media screen and (max-width: 600px) {
-    width: 400px;
+@media screen and (max-width: 750px) {
+    .logo img {
+        width: 400px;
+    }
 }
 .nav-style {
     background-color: #93C178;
