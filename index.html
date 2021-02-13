@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Top Ten Food</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Top ten best food in multiple categories such as FIlipino, Malaysian, and Craziest! FInd out their taste, origin, and their recipes!">
+        
+        <link rel="icon" href="resources/images/icon_toptenfood.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="default.css">
+        <style>
+            .card {
+                background-color: #93C178;
+                transition: transform .2s;
+            }
+            .card:hover {
+                transform: scale(1.05);
+            }
+            .card a {
+                color: white;
+            }
+            .card-footer {
+                color: #EAEAEA;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid logo">
+                <a href="index.html"> 
+                    <img src="resources/images/logo_toptenfood.png" class="rounded mx-auto d-block" style="" alt="Top Ten Food">
+                </a>
+            </div>
+            
+            <nav class="navbar navbar-expand-sm justify-content-center nav-style">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="topten_filipino_food.html">Filipino</a></li>
+                    <li class="nav-item"><a class="nav-link" href="topten_malaysian_food.html">Malaysian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="topten_craziest_food.html">Craziest</a></li>
+                </ul>
+            </nav>
+            
+            <div class="jumbotron jumbotron-fluid p-5 jumbotron-style">
+                <div class="container">
+                    <h1 class="display-4">TOP TEN FOOD LISTS</h1>
+                    <p class="lead">Here are a compilation of top ten dishes in multiple areas such as Filipino, Malaysian, and the craziest food ever!</p>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto py-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <a class="card-block stretched-link text-decoration-none" href="topten_filipino_food.html">
+                            <img src="resources/images/adoboChicken.jpg" class="card-img-top" alt="adobo chicken">
+                            <div class="card-body">
+                                <h5 class="card-title">Top Ten Filipino Food</h5>
+                                <p class="card-text">Explore the top ten best filipino dishes loved by many and came all away from the beautiful island of the Philippines!</p>
+                            </div>
+                            <div class="card-footer">
+                                <small>Last updated 1 day ago</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <a class="card-block stretched-link text-decoration-none" href="topten_malaysian_food.html">
+                            <img src="resources/images/nasiLemak.jpg" class="card-img-top" alt="nasi lemak">
+                            <div class="card-body">
+                                <h5 class="card-title">Top Ten Malaysian Food</h5>
+                                <p class="card-text">These top 10 Malaysian dishes are to die for! Find out our top 10 list of these treasures!</p>
+                            </div>
+                            <div class="card-footer">
+                                <small>Last updated 1 day ago</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <a class="card-block stretched-link text-decoration-none" href="topten_craziest_food.html">
+                            <img src="resources/images/shiokara.jpg" class="card-img-top" alt="shiokara">
+                            <div class="card-body">
+                                <h5 class="card-title">Top Ten Craziest Food</h5>
+                                <p class="card-text">You would not believe this! Here are the top 10 bizarre food people eat all around the world!</p>
+                            </div>
+                            <div class="card-footer">
+                                <small>Last updated 1 day ago</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class=" text-center">
+            <div class="row row-cols-1 row-cols-sm-2 p-3">
+                <div class="col fs-1 p-3">
+                    <p>Top Ten Food</p>
+                </div>
+                <div class="col text-start px-5">
+                    <h6>About Us</h6>
+                    <p>Top Ten Food is a non-profit organisation that researches current and popular trends of food around the world to provide up-to-date, informational, and interesting facts of various food. We describe food in terms of its taste, visually through images, and links to their recipes!</p>
+                </div>
+            </div>
+            <div class="py-1 copyright">
+                <p>&#169; Top Ten Food</p>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
