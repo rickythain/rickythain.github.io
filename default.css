@@ -18,7 +18,10 @@ and open the template in the editor.
 }
 @media screen and (max-width: 750px) {
     .logo img {
-        width: 400px;
+        width: 300px;
+    }
+    .logo {
+        height: 150px;
     }
 }
 .nav-style {
